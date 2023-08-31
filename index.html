@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>수학 물리학 화학 공식 사이트</title>
+  <title>Formula Agent</title>
   <style>
     body {
       font-family: 'Noto Sans KR', sans-serif;
@@ -22,52 +22,69 @@
     }
 
     header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
+        margin :0 ;
+        font-size :2rem ;   
+     }  
 
-    main {
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
+     main {  
+         display:flex ;   
+         justify-content:center ;   
+         align-items:flex-start ;   
+         gap :2rem ;   
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
+         padding :2rem ;
+         max-width :1200px ;
+         margin:auto ;
+       } 
 
-    ul li {
-      font-size: 1.25rem;
-      background-color: #fff;
-      padding: 1rem;
-      margin-bottom: 0.5rem;
-    }
-  </style>
+     .formulas {  
+           flex-basis :60% ;
+       } 
+
+     iframe {  
+           flex-basis :40% ;
+           height :430px ;
+           border:none ;
+       } 
+
+     ul {  
+          list-style-type:none ;
+          padding :0 ;
+          margin:auto ;
+       } 
+
+     ul li {  
+          font-size :1.25rem ;
+          background-color:#fff ;
+          padding :1rem ;
+          margin-bottom:.5rem ;
+
+ </style>
+
 </head>
+
 <body>
-  <header>
-    <h1>수학 물리학 화학 공식 사이트</h1>
-  </header>
-  <main>
-    <h2>수학 공식</h2>
-    <ul>
-      <li>공식 1: (예시) 이차방정식 - ax^2 + bx + c = 0</li>
-      <li>...</li>
-    </ul>
+<header><h1>Formula Agent</h1></header>
 
-    <h2>물리학 공식</h2>
-    <ul>
-      <li>공식 1: (예시) 뉴턴 제2법칙 - F = ma</li>
-      <li>...</li>
-    </ul>
+<main>
 
-    <h2>화학 공식</h2>
-    <ul>
-      <li>공식 1: (예시) 이상기체 등식 - PV=nRT</li>
-      <li>...</li>
-    </ul>
-  </main>
+<div class="formulas">
+
+<h2>개요</h2>
+
+<ul><li>Formula Agent는 대성고 1학년 학생들이 통합과학과 수학 교과 시간에 배웠던 내용들에 대한 추가적인 궁금증과 지식의 확장을 위한 에이전트 입니다. 이 에이전트는 여러분들의 물리학 화학 분야의 대표적인 이론들의 공식과, 활용 사례를 설명해 주어 여러분들의 탐구 동기를 자극할 것입니다! </li><li>수학 분야에서는 물리학 및 화학에서 유용하게 활용되고 있는 여러 대표적인 수학적 공식들에 대해 심화적인 지식을 제공함으로써, 여러분의 융합적 탐구역량 향상에 도움을 줄 것입니다!</li></ul>
+
+
+<h2>이렇게 해보세요!</h2>
+
+<ul><li>Formula Order: 물리학 or 화학 or 수학 공식 알려줘</li><li>Formula List&Applications: 뉴턴의 운동법칙 or 운동 방정식 or 미분과 적분 or 벡터 연산 or 이상기체 방정식</li></ul>
+
+
+</div>
+
+<iframe src="https://bot.dialogflow.com/35be5e3a-2be2-45f2-bb9f-31d9b38674bc"></iframe>
+
+</main>
+
 </body>
 </html>
